@@ -1,6 +1,8 @@
 A web server built using [Shelf](https://pub.dev/packages/shelf).
 
-GET / retrieve the list of tasks
-POST / create a new task
-PUT /:id update the task of id
-DELETE /:id
+Endpoints implemented
+* GET /todos retrieve the list of tasks
+* GET /todo/:id retrieve the a specific task
+* POST /todo create a new task
+* PUT /todo/:id update the task of id
+* DELETE /todo/:id
